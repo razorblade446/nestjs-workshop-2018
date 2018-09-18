@@ -6,5 +6,13 @@
   "repository": "git@github.com:razorblade446/nestjs-workshop-2018",
   "author": "Frederic Peña - fredericpena@hotmail.com (razorblade446)",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "lint": "tslint --project tsconfig.json src/**/*.ts"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "typescript": "^3.0.3"
+  }
 }
