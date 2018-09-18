@@ -9,6 +9,7 @@
       "node"
     ],
     "noUnusedParameters": true,
-    "noUnusedLocals": true
+    "noUnusedLocals": true,
+    "experimentalDecorators": true
   }
 }
