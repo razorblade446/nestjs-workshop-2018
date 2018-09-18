@@ -1,0 +1,10 @@
+{
+  "name": "nestjs-workshop-2018",
+  "version": "1.0.0",
+  "description": "Workshop about NestJS",
+  "main": "index.js",
+  "repository": "git@github.com:razorblade446/nestjs-workshop-2018",
+  "author": "Frederic Peña - fredericpena@hotmail.com (razorblade446)",
+  "license": "MIT",
+  "private": false
+}
