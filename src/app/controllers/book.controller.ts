@@ -4,7 +4,7 @@ import { IBook } from '../interfaces/book.interface';
 
 @Controller('api/v1/books')
 export class BookController {
-  constructor(/*@Inject(forwardRef(() => BookService))*/ private readonly bookService: BookService) {
+  constructor(private readonly bookService: BookService) {
   }
 
   @Get('')
